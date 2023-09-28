@@ -5,6 +5,13 @@ contract Test {
 
     function test(uint256 testNum) external pure returns (uint){
 
+        assembly {
+            let _num := 4
+            let _fmp := mload(0x40)
+            
+    
+        }
+
         return testNum;
     }
 }
