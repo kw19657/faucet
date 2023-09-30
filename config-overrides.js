@@ -20,3 +20,5 @@ module.exports = function override(config) {
     }) 
    ]) 
    return config; }
+
+   //needed to fix webpack issue
