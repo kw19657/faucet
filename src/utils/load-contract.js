@@ -1,5 +1,6 @@
 
 import contract from "@truffle/contract"
+//importing contract from node modules
 
 export const loadContract = async (name, provider) => {
     const res = await fetch(`/contracts/${name}.json`)
@@ -19,4 +20,5 @@ export const loadContract = async (name, provider) => {
 
 
     return deployedContract
+
    }
