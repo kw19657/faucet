@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import "./App.css"
 import Web3, { ProviderError } from "web3";
-import detectEthereumProvider from '@metamask/detect-provider'
+import detectEthereumProvider from '@metamask/detect-provider';
 import { loadContract } from "./utils/load-contract";
 
 function App() {
