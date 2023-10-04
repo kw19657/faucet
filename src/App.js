@@ -20,8 +20,8 @@ function App() {
   const reloadEffect = useCallback(() => reload(!shouldReload), [shouldReload])
 
   const setAccountListener = provider => {
-    provider.on("accountChanged",  _=> window.location.reload())
-    provider.on("chainChanged",  _=> window.location.reload())
+    provider.on("accountChanged",  _=> window.location.reload());
+    provider.on("chainChanged",  _=> window.location.reload());
     
     
     provider._jsonRpcConnection.events.on("notification", payload => {
