@@ -9,6 +9,11 @@ html, body {
   height: 100%;
 }
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 body {
   height: 100%;
   margin: 0;
@@ -20,7 +25,4 @@ body {
 }
 
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
