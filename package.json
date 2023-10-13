@@ -16,6 +16,7 @@
     "solc": "^0.8.21",
     "web-vitals": "^2.1.4",
     "web3": "^4.1.2"
+    
   },
   "scripts": {
     "start": "react-app-rewired start",
